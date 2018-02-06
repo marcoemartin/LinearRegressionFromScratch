@@ -33,7 +33,7 @@ if __name__ == "__main__":
     bos.columns = boston.feature_names
     print bos.keys()
     Y = boston.target
-    X = bos.LSTAT
+    X = bos.RM
 
     m = bos.shape[0]
     theta1, theta2 = coefficients(X, Y)
